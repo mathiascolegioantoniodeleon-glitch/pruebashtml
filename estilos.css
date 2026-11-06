@@ -1,0 +1,65 @@
+
+        body {
+            font-family:'Courier New', Courier, monospace;
+            margin: 0;
+            background-color: #59e3e7;
+            color: #123;
+        }
+
+        header {
+            background-color: #80edaa;
+            color: rgb(212, 6, 6);
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav {
+            background-color: #36e29b;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: rgb(239, 7, 7);
+            text-decoration: none;
+            margin: 20px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .animales {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .animal {
+            background-color: rgb(191, 240, 111);
+            width: 280px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .animal img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #1066e9;
+        }
+
+        footer {
+            background-color: #1e4577;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
